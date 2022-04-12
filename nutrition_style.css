@@ -43,6 +43,14 @@ table {
 .content_1 {
     display: flex;
 }
+#bg_left {
+    float: left;    
+    margin: 0 15px 0 0;
+}
+#bg_right {
+    float: right;    
+    margin: 0 15px 0 0;
+}
 .column {
     flex: 33.33%;
     padding: 5px;
