@@ -39,17 +39,29 @@ body {
 }
 table {
     font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 25%;
+    font-size: 20px;
+    border: rgb(134, 132, 132);
+}
+th, td {
+    text-align: center;
+    padding: 16px;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
 .content_1 {
     display: flex;
 }
 #bg_left {
     float: left;    
-    margin: 0 15px 0 0;
+    margin: 10px 10px 0 10px;
 }
 #bg_right {
     float: right;    
-    margin: 0 15px 0 0;
+    margin: 10px 10px 10px 10px;
 }
 .column {
     flex: 33.33%;
