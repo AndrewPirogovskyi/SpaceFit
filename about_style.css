@@ -125,6 +125,11 @@ body {
     font-size: 20px;
     text-align: center;
 }
+.content_3 {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 95%;
+}
 .footer {
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
