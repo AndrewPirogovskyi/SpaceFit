@@ -125,7 +125,12 @@ body {
     font-size: 20px;
     text-align: center;
 }
-.content_3 {
+.content_under {
+    background-color: rgb(134, 132, 132);
+}
+.content_4 {
+    padding-top: 5px;
+    padding-bottom: 5px;
     position: relative;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -156,16 +161,16 @@ body {
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
+    border-radius: 8px;
     user-select: none;
 }
 .next {
     right: 0;
-    border-radius: 3px 0 0 3px;
+    border-radius: 8px 0 0 8px;
 }
 .prev {
     left: 0;
-    border-radius: 3px 0 0 3px;
+    border-radius: 0px 8px 8px 0px;
 }
 .prev:hover, .next:hover {
     background-color: black;
@@ -182,13 +187,13 @@ body {
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: rgb(134, 132, 132);
+    background-color: black;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
 }
 .active, .dot:hover {
-    background-color: black;
+    background-color: white;
 }
 .fade {
     animation-name: fade;
