@@ -115,6 +115,112 @@ body {
 .content_under {
     background-color: rgb(134, 132, 132);
 }
+.scroll-element_2 {
+    padding-top: 70px;
+    padding-left: 20px;
+    margin-left: 10px;
+    margin-right: 77px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 43.9%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    min-height: 400px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: 850px 450px;
+    border-radius: 8px;
+    text-align: center;
+    float: right;
+    font-size: 20px;;
+}
+.scroll-element_4 {
+    padding-top: 90px;
+    margin-left: 70px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 45%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    min-height: 400px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: 870px 450px;
+    border-radius: 8px;
+    text-align: center;
+    float: left;
+    font-size: 20px;
+}
+.scroll-element_6 {
+    padding-top: 70px;
+    padding-left: 20px;
+    margin-left: 10px;
+    margin-right: 77px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 43.9%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    min-height: 400px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: 850px 450px;
+    border-radius: 8px;
+    text-align: center;
+    float: right;
+    font-size: 20px;;
+}
+.scroll-element_3 {
+    padding: 10px;
+    margin-left: 70px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 45%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    min-height: 400px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-image: url(Images/background_19.jpg);
+    background-size: 870px 450px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.scroll-element_5 {
+    padding: 10px;
+    margin-left: 990px;
+    margin-right: 70px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    width: 43.9%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    min-height: 400px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-image: url(Images/background_21.jpg);
+    background-size: 850px 450px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.scroll-element_7 {
+    padding: 10px;
+    margin-left: 70px;
+    margin-right: 10px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    width: 45%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    min-height: 400px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-image: url(Images/background_20.jpg);
+    background-size: 870px 450px;
+    border-radius: 8px;
+    font-size: 20px;
+}
 .scroll-element,
 .scroll-caption {
     width: 50%;
@@ -132,7 +238,7 @@ body {
     font-size: 20px;
     text-align: center;
 }
-.scroll-element_5 {
+.scroll-element_8 {
     padding-top: 5px;
     padding-bottom: 5px;
     position: relative;
