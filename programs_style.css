@@ -75,6 +75,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
+.text_content {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 p {
     text-align: center;
 }
