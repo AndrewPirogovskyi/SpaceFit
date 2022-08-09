@@ -50,7 +50,7 @@ table {
     border-spacing: 0;
     width: 25%;
     font-size: 20px;
-    border: rgb(134, 132, 132);
+    border: #666666;
 }
 th, td {
     text-align: center;

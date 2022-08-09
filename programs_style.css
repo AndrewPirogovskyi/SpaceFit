@@ -88,7 +88,7 @@ table {
     border-spacing: 0;
     width: 25%;
     font-size: 20px;
-    border: rgb(134, 132, 132);
+    border: #666666;
 }
 th, td {
     text-align: center;
@@ -123,7 +123,7 @@ tr:nth-child(even) {
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: rgb(134, 132, 132);
+    background-color: #666666;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
