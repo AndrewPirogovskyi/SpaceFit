@@ -23,6 +23,23 @@ body {
 #top_button:hover {
     opacity: 0.7;;
 }
+.button_1 {
+    background-color: black;
+    color: white;
+    margin-right: 60px;
+    padding: 14px 50px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    font-size: 15px;
+}
+.button_1:hover {
+    background-color: white;
+    color: black;
+}
 .header_1 {
     font-size: 20px;
     text-align: left; 
@@ -110,10 +127,6 @@ body {
     text-align: center;
     padding-top: 10px;
     font-size: 20px;
-    text-align: center;
-}
-.content_under {
-    background-color: #666666;
 }
 .scroll-element_2 {
     padding-top: 70px;
@@ -130,7 +143,6 @@ body {
     text-align: center;
     background-size: 850px 450px;
     border-radius: 8px;
-    text-align: center;
     float: right;
     font-size: 20px;;
 }
@@ -147,7 +159,6 @@ body {
     text-align: center;
     background-size: 870px 450px;
     border-radius: 8px;
-    text-align: center;
     float: left;
     font-size: 20px;
 }
@@ -163,7 +174,6 @@ body {
     color: black;
     min-height: 400px;
     background-repeat: no-repeat;
-    text-align: center;
     background-size: 850px 450px;
     border-radius: 8px;
     text-align: center;
@@ -239,6 +249,19 @@ body {
     text-align: center;
 }
 .scroll-element_8 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    width: 100%;
+    min-height: 200px;
+    background-color: #666666;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.scroll-element_9 {
     padding-top: 5px;
     padding-bottom: 5px;
     position: relative;
@@ -324,7 +347,7 @@ body {
     transition: background-color 0.6s ease;
 }
 .active, .dot:hover {
-    background-color: white;
+    background-color: #666666;
 }
 .fade {
     animation-name: fade;
