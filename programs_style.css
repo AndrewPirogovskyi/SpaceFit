@@ -35,34 +35,41 @@ body {
     float: right;
     padding: 10px;
     text-align: center;
-    width: 25%
+    width: 30%
 }
-.fa {
-    padding: 15px;
-    font-size: 40px;
-    width: 53px;
+.button_1 {
+    margin-left: 30px;
+    background-color: white;
+    color: black;
+    padding: 14px 50px;
+    border: none;
+    cursor: pointer;
     text-align: center;
-    text-decoration: none;
-    margin: 5px 10px;
-    border-radius: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    font-size: 16px;
 }
-.fa:hover {
-    opacity: 0.7;
+.button_2 {
+    margin-left: 5px;
+    background-color: white;
+    color: black;
+    padding: 14px 50px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    font-size: 16px;
 }
-.fa-instagram {
+.button_1:hover {
     background-color: black;
+    color: white
 }
-.fa-telegram {
+.button_2:hover {
     background-color: black;
-}
-.fa-youtube {
-    background-color: black;
-}
-.fa-twitter {
-    background-color: black;
-}
-.fa-facebook {
-    background-color: black;
+    color: white
 }
 .header_3 {
     text-align: center;
@@ -76,8 +83,8 @@ body {
     font-size: 20px;
 }
 .text_content {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 p {
     text-align: center;
@@ -176,13 +183,51 @@ hr {
 }
 .footer_link {
     color: black;
+    text-decoration: none;
 }
 .under_footer {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     padding-top: 10px;
-    padding-bottom: 2px;
+}
+.social_footer {
+    padding: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+.fa {
+    padding: 15px;
+    font-size: 40px;
+    width: 52px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-instagram {
+    background-color: black;
+}
+.fa-telegram {
+    background-color: black;
+}
+.fa-youtube {
+    background-color: black;
+}
+.fa-twitter {
+    background-color: black;
+}
+.fa-facebook {
+    background-color: black;
 }
 .footer {
     background-color: white;
