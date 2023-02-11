@@ -132,6 +132,11 @@ hr {
 .footer_link {
     color: black;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.footer_link:hover {
+    text-decoration: underline black;
 }
 .under_footer {
     text-align: center;
@@ -180,6 +185,7 @@ hr {
 }
 .footer {
     background-color: white;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     text-align: center;

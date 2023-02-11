@@ -321,7 +321,7 @@ body {
     color: white;
     font-weight: bold;
     font-size: 18px;
-    transition: 0.6s ease;
+    transition: 0.5s ease;
     border-radius: 8px;
     user-select: none;
 }
@@ -351,7 +351,7 @@ body {
     background-color: black;
     border-radius: 50%;
     display: inline-block;
-    transition: background-color 0.6s ease;
+    transition: background-color 0.5s ease;
 }
 .active, .dot:hover {
     background-color: #666666;
@@ -374,6 +374,12 @@ hr {
     margin-left: 70px;
     margin-right: 77px;
 }
+.footer_underline {
+    margin: 0px;
+    color: black;
+    border: 1px solid;
+    width: 100%;
+}
 .footer_table {
     text-align: center;
     width: 25%;
@@ -381,6 +387,11 @@ hr {
 .footer_link {
     color: black;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.footer_link:hover {
+    text-decoration: underline black;
 }
 .under_footer {
     text-align: center;
@@ -429,6 +440,7 @@ hr {
 }
 .footer {
     background-color: white;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     text-align: center;
