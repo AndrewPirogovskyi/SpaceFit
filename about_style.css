@@ -191,7 +191,7 @@ body {
     padding: 10px;
     margin-left: 70px;
     margin-right: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 50px;
     width: 45%;
     font-family: Arial, Helvetica, sans-serif;
@@ -226,7 +226,7 @@ body {
     margin-left: 70px;
     margin-right: 10px;
     margin-top: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     width: 45%;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -374,12 +374,6 @@ hr {
     margin-left: 70px;
     margin-right: 77px;
 }
-.footer_underline {
-    margin: 0px;
-    color: black;
-    border: 1px solid;
-    width: 100%;
-}
 .footer_table {
     text-align: center;
     width: 25%;
@@ -439,7 +433,7 @@ hr {
     background-color: black;
 }
 .footer {
-    background-color: white;
+    background-color: #666666;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;

@@ -71,6 +71,40 @@ body {
     background-color: black;
     color: white
 }
+.button_3 {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding: 14px 50px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    transition: all 0.5s;
+    font-size: 16px;
+}
+.button_3 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+} 
+.button_3 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.button_3:hover span {
+    padding-right: 25px;
+}
+.button_3:hover span:after {
+    opacity: 1;
+    right: 0;
+}
 .container {
     font-size: 20px;
 }
@@ -110,6 +144,43 @@ tr:nth-child(even) {
 }
 img {
     border-radius: 8px;
+}
+.cards {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card_1 {
+    box-shadow: 0 4px 6px 0 black;
+    text-align: center;
+    display: inline-block;
+    margin-left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 19%;
+    border-radius: 8px;
+}
+.card_2 {
+    box-shadow: 0 4px 6px 0 black;
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 19%;
+    border-radius: 8px;
+}
+.card_3 {
+    box-shadow: 0 4px 6px 0 black;
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 19%;
+    border-radius: 8px;
+}
+.card_under {
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;;
 }
 hr {
     border: 1px solid;
