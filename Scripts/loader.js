@@ -1,7 +1,7 @@
 var myVar;
   
 function myFunction() {
-  myVar = setTimeout(showPage, 5000);
+  myVar = setTimeout(showPage, 4000);
 }
 function showPage() {
   document.getElementById("loader").style.display = "none";
@@ -25,4 +25,4 @@ function chargebattery() {
   }, 4000);
 }
 chargebattery();
-setInterval(chargebattery, 5000);
+setInterval(chargebattery, 4000);
