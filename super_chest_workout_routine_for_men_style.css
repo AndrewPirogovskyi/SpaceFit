@@ -101,6 +101,9 @@ tr:nth-child(even) {
     object-fit: cover;
     border-radius: 8px;
 }
+#caption {
+    margin-bottom: 10px;
+}
 hr {
     border: 1px solid black;
 }
@@ -137,7 +140,6 @@ hr {
     text-decoration: none;
     margin: 5px;
     border-radius: 50%;
-    color: white;
 }
 .fa:hover {
     opacity: 0.7;
@@ -148,6 +150,7 @@ hr {
 .fa-twitter,
 .fa-facebook {
     background-color: black;
+    color: white;
 }
 .footer {
     background-color: white;
