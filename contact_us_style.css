@@ -3,6 +3,8 @@ html {
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 .button_1 {
     background-color: black;
@@ -22,159 +24,163 @@ body {
     border: 1px solid black;
 }
 .header_1 {
-    font-size: 20px;
-    text-align: left; 
-    color: black;
-    min-height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 10px;
 }
 .header_2 {
-    min-height: 85px;
-    float: right;
-    padding: 10px;
-    text-align: center;
-    width: 30%
+    display: flex;
+    gap: 10px;
 }
-.button_2 {
-    margin-left: 30px;
-    background-color: white;
-    color: black;
-    padding: 14px 50px;
-    border: none;
-    cursor: pointer;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 8px;
-    transition-duration: 0.4s;
-    font-size: 16px;
-}
+.button_2,
 .button_3 {
-    margin-left: 5px;
     background-color: white;
     color: black;
-    padding: 14px 50px;
+    padding: 24px 34px;
     border: none;
     cursor: pointer;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
     border-radius: 8px;
-    transition-duration: 0.4s;
-    font-size: 16px;
+    transition: background-color 0.4s, color 0.4s;
+    font-size: 19px;
 }
-.button_2:hover {
-    background-color: black;
-    color: white
-}
+.button_2:hover,
 .button_3:hover {
     background-color: black;
-    color: white
+    color: white;
 }
 .container {
-    width: 100%;
-    height: auto;
-    background-color: white;
+    font-size: 20px;
 }
 .form_design {
     background-image: url(Images/background_22.jpg);
     background-repeat: no-repeat;
-    background-size: 1800px 900px;
+    background-size: cover;
     border-radius: 8px;
     padding: 20px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin: 20px;
 }
 .contact_form {
     background-color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    width: 30%;
-    min-height: 400px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
     border-radius: 8px;
-    padding: 10px;
+    padding: 20px;
     font-size: 20px;
 }
-input[type = text] {
-    padding: 14px 35px;
-    border: 1px solid;
+.contact_form small {
+    font-size: 14px;
+}
+.contact_form input[type="text"],
+.contact_form select,
+.contact_form textarea {
+    width: 55%; 
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid black;
     border-radius: 8px;
+    box-sizing: border-box;
+}
+.contact_form button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 24px 44px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 20px;
+    transition: background-color 0.4s, color 0.4s;
+}
+.contact_form button:hover {
     background-color: white;
-}
-.select {
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 8px;
-    border: 1px solid;
-}
-textarea[name = description] {
-    border: 1px solid;
-    border-radius: 8px;
-}
-hr {
-    border: 1px solid;
     color: black;
 }
+hr {
+    border: 1px solid black;
+}
 .footer_table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
     text-align: center;
-    width: 25%;
+    font-size: 16px;
 }
 .footer_link {
     color: black;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
 .footer_link:hover {
-    text-decoration: underline black;
+    text-decoration: underline;
 }
 .under_footer {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    padding-top: 15px;
-    padding-bottom: 5px;
+    padding: 10px 0;
 }
 .social_footer {
     padding: 10px;
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
     font-size: 20px;
-    text-align: center;
 }
 .fa {
     padding: 15px;
     font-size: 40px;
-    width: 22px;
+    width: 25px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 5px;
+    margin: 5px;
     border-radius: 50%;
 }
 .fa:hover {
     opacity: 0.7;
 }
-.fa-instagram {
-    background-color: black;
-}
-.fa-telegram {
-    background-color: black;
-}
-.fa-youtube {
-    background-color: black;
-}
-.fa-twitter {
-    background-color: black;
-}
+.fa-instagram,
+.fa-telegram,
+.fa-youtube,
+.fa-twitter,
 .fa-facebook {
     background-color: black;
+    color: white;
 }
 .footer {
     background-color: white;
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
     text-align: center;
     padding: 10px;
+    font-size: 16px;
+}
+@media screen and (max-width: 768px) {
+    .text {
+        padding: 0 10px;
+    }
+    table {
+        width: 90%;
+    }
+    .footer_table {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .header_1 {
+        flex-direction: column;
+        text-align: center;
+    }
+    .header_2 {
+        flex-direction: column;
+        width: 100%;
+    }
+    .button_1, .button_2 {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .social_footer {
+        flex-direction: column;
+    }
 }
