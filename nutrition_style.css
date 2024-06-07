@@ -44,7 +44,7 @@ body {
     text-align: center;
     border-radius: 8px;
     transition: background-color 0.4s, color 0.4s;
-    font-size: 19px;
+    font-size: 20px;
 }
 .button_3 {
     background-color: black;
@@ -151,11 +151,18 @@ tr:nth-child(even) {
 .card_under {
     padding: 10px;
 }
+h1 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
 hr {
     border: 1px solid black;
 }
+.caption {
+    margin-bottom: 10px;
+}
 .footer_table {
-    width: 35%;
+    width: 34%;
     text-align: center;
     font-size: 16px;
 }

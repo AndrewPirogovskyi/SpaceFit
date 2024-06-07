@@ -1,93 +1,90 @@
-<html>
-
+<!DOCTYPE html>
+<html lang = "en">
     <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
         <title>News - SpaceFit</title>
         <link rel = "icon" type = "image/x-icon" href = "Images/header_2.png">
         <link rel = "stylesheet" type = "text/css" href = "news_style.css">
         <link rel = "stylesheet" type = "text/css" href = "loader.css">
         <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-        <body link = "white", vlink = "white", alink = "black" onload = "myFunction()" style = "margin:0;">
-            <button onclick = "topFunction()" id = "top_button" title = "Go to top">Top</button>
-            <script src = "Scripts/top_button.js"></script>
-            <div id = "loader" class = "fa"></div>
-            <div class = "container" style = "display:none;" id = "my_content">
-                <div class = "header_1">
-                    <a href = "main.html"><img src = "Images/header_1.png"></a>
-                    <div class = "header_2">
-                        <form>
-                            <button formaction = "nutrition.html" class = "button_2">Nutrition</button>
-                            <button formaction = "programs.html" class = "button_3">Programs</button>
-                            <button formaction = "about.html" class = "button_3">About us</button>
-                        </form>
-                    </div>
-                </div>
-                <hr>
-                <center><p><h2>The News</h2></p></center>
-                <div class = "news">
-                    <p><h3>SpaceFit outfit very soon!</h3>
-                    <h4>April 13th, 2022</h4>
-                    <p>
-                        <img src = "Images/sport_news_3.jpg" width = "850" height = "700">
-                    </p>
-                    <h3>
-                        <p>The SpaceFit team is so excited to preset you first outfit collection which you could buy on our website.</p>
-                        <from>
-                            <button class = "button_1"><span>Read more </span></button>
-                        </from>
-                    </h3>
-                    <hr>
-                    <p><h3>New design, new opportunities! 
-                    <br>SpaceFit is improving every day with you.</h3>
-                    <h4>April 10th, 2022</h4>
-                    <p>
-                        <img src = "Images/sport_news_2.jpg" width = "850" height = "700">
-                    </p>
-                    <h3>
-                        <p>By CEO of SpaceFit: "Our team worked too hard in order to make such elegant and beautiful design.
-                        <br>We all believe that it will get a new experience for our users and make them usage more pleasure and simple".</p>
-                        <from>
-                            <button class = "button_1"><span>Read more </span></button>
-                        </from>
-                    </h3>
-                    <hr>
-                    <p><h3>Adidas has signed a collaboration agreement with SpaceFit!</h3>
-                    <h4>March 19th, 2022</h4>
-                    <p>
-                        <img src = "Images/sport_news.jpg" width = "850" height = "700">
-                    </p>
-                    <h3>
-                        <p>By Kasper Rorsted (CEO of Adidas): "We appreciate the support from the SpaceFit that are helping us to promote our products.
-                        <br>I think this collaboration agreement will get better relationship between our companies and will make them more productive".</p>
-                        <from>
-                            <button class = "button_1"><span>Read more </span></button>
-                        </from>
-                    </h3>
-                </div>
-                <hr>
-                <div class = "footer">
-                    <div class = "under_footer">
-                        <center><table class = "footer_table">
-                            <tr>
-                                <td><a href = "nutrition.html" class = "footer_link">Nutrition</a></td><td><a href = "programs.html" class = "footer_link">Programs</a></td><td><a href = "news.html" class = "footer_link">News</a></td><td><a href = "about.html" class = "footer_link">About us</a></td><td><a href = "contact_us.html" class = "footer_link">Contact us</a></td>
-                            </tr>
-                        </table></center>
-                    </div>
-                    <div class = "social_footer">
-                        <a href = "#" class = "fa fa-instagram"></a>
-                        <a href = "#" class = "fa fa-telegram"></a>
-                        <a href = "#" class = "fa fa-youtube"></a>
-                        <a href = "#" class = "fa fa-facebook"></a>
-                        <a href = "#" class = "fa fa-twitter"></a>
-                    </div>
-                    <p>&copy; SpaceFit, 2022. All Rights Reserved.
-                    <br>All trademarks mentioned are the property of their respective owners. 
-                    <br><img src = "https://img.icons8.com/ios/40/000000/barbell.png">
+    </head>
+    <body onload = "myFunction()" style = "margin:0;">
+        <button onclick = "topFunction()" id = "top_button" title = "Go to top">Top</button>
+        <script src = "Scripts/top_button.js"></script>
+        <div id = "loader" class = "fa"></div>
+        <div class = "container" style = "display:none;" id = "my_content">
+            <div class = "header_1">
+                <a href = "main.html"><img src = "Images/header_1.png" alt = "Header Image"></a>
+                <div class = "header_2">
+                    <form>
+                        <button formaction = "nutrition.html" class = "button_2">Nutrition</button>
+                        <button formaction = "programs.html" class = "button_3">Programs</button>
+                        <button formaction = "about.html" class ="button_3">About us</button>
+                    </form>
                 </div>
             </div>
-            <script src = "Scripts/loader.js"></script>
-        </body>
-
-    </head>
-
+            <hr>
+            <h1 style = "text-align: center;">The News</h1>
+            <div class = "news">
+                <h2>SpaceFit outfit very soon!</h2>
+                <h3>April 13th, 2022</h3>
+                <div class = "image-container">
+                    <img src = "Images/sport_news_3.jpg" alt = "Sport News">
+                </div>
+                <p>The SpaceFit team is so excited to present you the first outfit collection which you could buy on our website.</p>
+                <form>
+                    <button class = "button_1"><span>Read more </span></button>
+                </form>
+            </div>
+            <hr>
+            <div class = "news">
+                <h2>New design, new opportunities!<br>SpaceFit is improving every day with you.</h2>
+                <h3>April 10th, 2022</h3>
+                <div class = "image-container">
+                    <img src = "Images/sport_news_2.jpg" alt = "Sport News">
+                </div>
+                <p>By CEO of SpaceFit: "Our team worked too hard in order to make such elegant and beautiful design.<br>We all believe that it will get a new experience for our users and make their usage more pleasurable and simple".</p>
+                <form>
+                    <button class = "button_1"><span>Read more </span></button>
+                </form>
+            </div>
+            <hr>
+            <div class = "news">
+                <h2>Adidas has signed a collaboration agreement with SpaceFit!</h2>
+                <h3>March 19th, 2022</h3>
+                <div class = "image-container">
+                    <img src = "Images/sport_news.jpg" alt = "Sport News">
+                </div>
+                <p>By Kasper Rorsted (CEO of Adidas): "We appreciate the support from SpaceFit that is helping us to promote our products.<br>I think this collaboration agreement will get a better relationship between our companies and will make them more productive".</p>
+                <form>
+                    <button class="button_1"><span>Read more </span></button>
+                </form>
+            </div>
+            <hr>
+            <div class = "footer">
+                <div class = "under_footer">
+                    <table class = "footer_table" style = "margin: 0 auto;">
+                        <tr>
+                            <td><a href = "nutrition.html" class = "footer_link">Nutrition</a></td>
+                            <td><a href = "programs.html" class = "footer_link">Programs</a></td>
+                            <td><a href = "news.html" class = "footer_link">News</a></td>
+                            <td><a href = "about.html" class = "footer_link">About us</a></td>
+                            <td><a href = "contact_us.html" class = "footer_link">Contact us</a></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class = "social_footer">
+                    <a href = "#" class = "fa fa-instagram"></a>
+                    <a href = "#" class = "fa fa-telegram"></a>
+                    <a href = "#" class = "fa fa-youtube"></a>
+                    <a href = "#" class = "fa fa-facebook"></a>
+                    <a href = "#" class = "fa fa-twitter"></a>
+                </div>
+                <p>&copy; SpaceFit, 2024. All Rights Reserved.<br>All trademarks mentioned are the property of their respective owners.</p>
+                <p><img src = "https://img.icons8.com/ios/40/000000/barbell.png" alt = "Barbell Icon"></p>
+            </div>
+        </div>
+        <script src = "Scripts/loader.js"></script>
+    </body>
 </html>
