@@ -26,7 +26,10 @@ body {
     opacity: 0.7;
 }
 #title {
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 50px;
+    align-items: center;
 }
 .header_1 {
     display: flex;
@@ -55,6 +58,40 @@ body {
     background-color: black;
     color: white;
 }
+.button_1 {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding: 14px 50px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    transition: all 0.5s;
+    font-size: 16px;
+}
+.button_1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+} 
+.button_1 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.button_1:hover span {
+    padding-right: 25px;
+}
+.button_1:hover span:after {
+    opacity: 1;
+    right: 0;
+}
 .container {
     font-size: 20px;
 }
@@ -70,7 +107,6 @@ body {
     border-radius: 8px;
     margin-left: 45px;
     margin-right: 45px;
-    margin-bottom: 20px;
 }
 .under_1 {
     font-family: Arial, Helvetica, sans-serif;
@@ -90,109 +126,6 @@ body {
     width: 60%;
     margin-left: 30px;
 }
-.scroll-element_2 {
-    padding-top: 70px;
-    padding-left: 20px;
-    margin-left: 10px;
-    margin-right: 77px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 43.9%;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    min-height: 400px;
-    background-repeat: no-repeat;
-    text-align: center;
-    background-size: 850px 450px;
-    border-radius: 8px;
-    float: right;
-    font-size: 20px;;
-}
-.scroll-element_4 {
-    padding-top: 90px;
-    margin-left: 70px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    width: 45%;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    min-height: 400px;
-    background-repeat: no-repeat;
-    text-align: center;
-    background-size: 870px 450px;
-    border-radius: 8px;
-    float: left;
-    font-size: 20px;
-}
-.scroll-element_6 {
-    padding-top: 70px;
-    padding-left: 20px;
-    margin-left: 10px;
-    margin-right: 77px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 43.9%;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    min-height: 400px;
-    background-repeat: no-repeat;
-    background-size: 850px 450px;
-    border-radius: 8px;
-    text-align: center;
-    float: right;
-    font-size: 20px;;
-}
-.scroll-element_3 {
-    padding: 10px;
-    margin-left: 70px;
-    margin-right: 10px;
-    margin-top: 20px;
-    margin-bottom: 50px;
-    width: 45%;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    min-height: 400px;
-    background-repeat: no-repeat;
-    text-align: center;
-    background-image: url(Images/background_19.jpg);
-    background-size: 870px 450px;
-    border-radius: 8px;
-    font-size: 20px;
-}
-.scroll-element_5 {
-    padding: 10px;
-    margin-left: 990px;
-    margin-right: 70px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    width: 43.9%;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    min-height: 400px;
-    background-repeat: no-repeat;
-    text-align: center;
-    background-image: url(Images/background_21.jpg);
-    background-size: 850px 450px;
-    border-radius: 8px;
-    font-size: 20px;
-}
-.scroll-element_7 {
-    padding: 10px;
-    margin-left: 70px;
-    margin-right: 10px;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    width: 45%;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    min-height: 400px;
-    background-repeat: no-repeat;
-    text-align: center;
-    background-image: url(Images/background_20.jpg);
-    background-size: 870px 450px;
-    border-radius: 8px;
-    font-size: 20px;
-}
 .scroll-element,
 .scroll-caption {
     width: 50%;
@@ -209,6 +142,28 @@ body {
     min-height: 100px;
     font-size: 20px;
     text-align: center;
+}
+.cards {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.card {
+    box-shadow: 0 4px 6px 0 black;
+    text-align: center;
+    display: inline-block;
+    width: calc(25% - 20px);
+    border-radius: 8px;
+    margin: 10px;
+}
+.card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+.card_under {
+    padding: 10px;
 }
 #table {
     border-collapse: collapse; 
@@ -381,11 +336,19 @@ hr {
     padding: 10px;
     font-size: 16px;
 }
+@media screen and (max-width: 1200px) {
+    .card {
+        width: calc(33.33% - 20px);
+    }
+}
 @media screen and (max-width: 1024px) {
     #table {
         width: 90%;
         padding: 0;
         margin: 0;
+    }
+    .card {
+        width: calc(50% - 20px);
     }
     td {
         padding: 15px;
@@ -409,9 +372,8 @@ hr {
     }
 }
 @media screen and (max-width: 768px) {
-    .scroll-element_5 {
-        margin: 1%;
-        font-size: 1rem;
+    .card {
+        width: calc(50% - 20px);
     }
     #table {
         width: 80%;
@@ -462,14 +424,13 @@ hr {
     }
 }
 @media screen and (max-width: 480px) {
+    .card {
+        width: calc(100% - 20px);
+    }
     #table {
         width: 70%;
         padding: 0;
         margin: 0;
-    }
-    .scroll-element_5 {
-        margin: 1%;
-        font-size: 0.9rem;
     }
     td {
         padding: 10px;
