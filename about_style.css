@@ -96,35 +96,38 @@ body {
     font-size: 20px;
 }
 .content_1 {
-    background-image: url(Images/background_11.jpg);
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    width: 95%;
-    height: 85%;
-    background-size: cover;
-    text-align: center;
-    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: auto;
+    justify-content: center;
+    position: relative;
     border-radius: 8px;
-    margin-left: 45px;
-    margin-right: 45px;
-}
-.under_1 {
+    background-image: url(Images/background_11.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 790px;
+    width: 99%;
+    height: 80%;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    float: left;
-    height: 30%;
-    width: 60%;
-    margin-left: 30px;
-}
-.under_2 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    float: left;
-    margin-top: 120px;
+    font-size: 20px;
+    justify-content: flex-start;
+    align-items: center;
     text-align: center;
-    height: 60%;
-    width: 60%;
-    margin-left: 30px;
+}
+.overlay {
+    padding: 20px;
+    color: white;
+    border-radius: 8px;
+    max-width: 55%;
+    min-height: 500px;
+}
+.overlay h1, .overlay h3 {
+    margin: 10px 0;
+}
+.content_1_1 {
+    padding: 40px;
 }
 .scroll-element,
 .scroll-caption {
@@ -170,20 +173,7 @@ body {
     width: 40%;
     font-size: 20px;
 }
-.scroll-element_8 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    width: 100%;
-    min-height: 200px;
-    background-color: #666666;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 20px;
-}
-.scroll-element_9 {
+.scroll-element_3 {
     padding-top: 5px;
     padding-bottom: 5px;
     position: relative;

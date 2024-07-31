@@ -1,5 +1,5 @@
-<html>
-
+<!DOCTYPE html>
+<html lang = "en">
     <head>
         <meta name = "viewport" content = "width=device-width, initial-scale=1">
         <title>About us - SpaceFit</title>
@@ -7,231 +7,213 @@
         <link rel = "stylesheet" type = "text/css" href = "about_style.css">
         <link rel = "stylesheet" type = "text/css" href = "loader.css">
         <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <body link = "white", vlink = "white", alink = "black" onload = "myFunction()" style = "margin:0;">
-            <button onclick = "topFunction()" id = "top_button" title = "Go to top">Top</button>
-            <script src = "Scripts/top_button.js"></script>
-            <div id = "loader" class = "fa"></div>
-            <div class = "container" style = "display:none;" id = "my_content">
-                <div class = "header_1">
-                    <a href = "main.html"><img src = "Images/header_1.png"></a>
-                    <div class = "header_2">
-                        <form>
-                            <button formaction = "nutrition.html" class = "button_2">Nutrition</button>
-                            <button formaction = "programs.html" class = "button_3">Programs</button>
-                            <button formaction = "news.html" class = "button_3">News</button>
-                        </form>
-                    </div>
+    </head>
+    <body onload = "myFunction()" style = "margin:0;">
+        <button onclick = "topFunction()" id = "top_button" title = "Go to top">Top</button>
+        <script src = "Scripts/top_button.js"></script>
+        <div id = "loader" class = "fa"></div>
+        <div class = "container" style = "display:none;" id = "my_content">
+            <div class = "header_1">
+                <a href = "main.html"><img src = "Images/header_1.png"></a>
+                <div class = "header_2">
+                    <form>
+                        <button formaction = "nutrition.html" class = "button_2">Nutrition</button>
+                        <button formaction = "programs.html" class = "button_3">Programs</button>
+                        <button formaction = "news.html" class = "button_3">News</button>
+                    </form>
                 </div>
-                <hr>
-                <div class = content_1>
-                    <div class = under_1>
-                        <h1>Our Mission</h1>
-                        <p><h3>The SpaceFit team is a huge community of professional athletes who are ready
-                        <br>to help everyone in any part of the planet.
-                        <br>Our main mission is to build a platform that provides people with the knowledge, 
-                        <br>tools and products to reach their fitness and physique goals.</h3></p>
-                    </div> 
-                    <div class = under_2>
-                        <h1>Our Story</h1>
+            </div>
+            <hr>
+            <section class = "content_1">
+                <div class = "overlay">
+                    <h1 id = "title">Our Story</h1>
+                    <div class = "content_1_1">
                         <h3>
-                            <p>The SpaceFit team was created in 2020 by Andrew Bern. Spacefit team has grown from
-                            amators to the professional athletes around the world.
-                            After our team began to grow rapidly, we decided to create our own website 
-                            where there are a lot of training programs, nutrition tips and much more that can hepl athletes of all leveles.
-                            In 2022 we launched our store. In just our first month of opened store, we sold about 150,000 fitness accessories and clothing.  
-                            Then we had signed a collaboration agreement with Adidas that helped us to improve the quality of our products and increased our sales.
-                            Nowadays, we are one of the best sport community on the Internet which improves everyday with all it's members.
-                            </p>
+                            The SpaceFit team was founded in 2020 by Andrew Bern. What started as a small group of passionate amateur athletes quickly grew into a global network of professional athletes. Driven by our shared commitment to fitness and excellence, our team began to expand rapidly, attracting members from all corners of the world.
+                            <br>
+                            <br>As our community grew, we recognized the need for a dedicated online space where we could share our knowledge and resources. In response, we launched our website, which offers a wide range of training programs, nutrition tips, and much more. Our goal was to create a comprehensive platform that could support athletes of all levels in their fitness journeys.
+                            <br>
+                            <br>In 2022, we took a significant step forward by launching our own store. The response was overwhelming — in our first month, we sold approximately 150,000 fitness accessories and clothing items. This early success was a testament to the quality and appeal of our products.
+                            <br>
+                            <br>Building on this momentum, we entered into a collaboration agreement with Adidas. This partnership allowed us to enhance the quality of our offerings even further, providing our customers with top-notch fitness gear and apparel. The collaboration with Adidas not only boosted our product quality but also significantly increased our sales and brand visibility.
+                            <br>
+                            <br>Today, SpaceFit stands as one of the premier sports communities on the internet. We are proud of the supportive and dynamic environment we've created, where members can connect, learn, and grow together. Our community continues to thrive and evolve, thanks to the dedication and contributions of all its members.
                         </h3>
                     </div>
                 </div>
-                <section class = "scroll-container">
-                    <div class = "scroll-element_1 js-scroll fade-in">
-                        <center><h1 id = "title">Core Values</h1></center>
-                        <center>
-                            <table cellspacing = "0" cellpadding = "25" id = "table">
-                                <tr>
-                                    <td><img src = "https://img.icons8.com/ios-glyphs/90/000000/thumb-up--v1.png" alt = "User"></td>
-                                    <td valign = "center"><h2>Quality & Simplicity</h2>
-									<h3>In sports, excellence is key. We focus on delivering top-notch quality and straightforward solutions, ensuring that every athlete and fan experiences the best with minimal fuss. Our commitment to simplicity helps everyone stay focused on what truly matters: the game.</h3>
-                                </tr>
-                                <tr>
-                                    <td><img src = "https://img.icons8.com/ios-glyphs/90/000000/warranty.png" alt = "Task Completed"></td>
-                                    <td valign = "center"><h2>Trust & Accountability</h2>
-									<h3>Trust is essential in sports. We earn it by being reliable and transparent in every aspect of our work. Our accountability ensures that every interaction is honest and every promise is kept, building a strong foundation with athletes, teams, and fans alike.</h3>
-                                </tr>
-                                <tr>
-                                    <td><img src = "https://img.icons8.com/ios-glyphs/90/000000/clock--v1.png" alt = "Hot Drink"></td>
-                                    <td valign = "center"><h2>Reliability & Speed</h2>
-									<h3>In the fast-paced world of sports, reliability and speed are crucial. We pride ourselves on delivering timely updates, accurate information, and responsive service to keep you in the game and ahead of the competition.</h3>
-                                </tr>
-                                <tr>
-                                    <td><img src = "https://img.icons8.com/ios-glyphs/90/000000/fire-element--v1.png" alt = "Price Tag"></td>
-                                    <td valign = "center"><h2>Creativity & Persistence</h2>
-									<h3>Creativity and persistence are what drive us to push the boundaries of sports coverage. Whether it's through innovative content, unique features, or overcoming challenges, we're dedicated to bringing fresh and exciting experiences to sports enthusiasts everywhere.</h3>
-                                </tr>
-                            </table>
-                        </center>
-                    </div>
-                </section>
-                <hr>
-                <section class = "scroll-container">
-                    <div class = "scroll-element_2 js-scroll fade-in">
-                        <center><h1 id = "title">Best Professional Coaches</h1></center>
-                        <div class = "cards">
-                            <div class = "card">
-                                <img src = "Images/card_15.png" alt = "Card 1">
-                                <div class = "card_under">
-                                <h2>Mike Thurston</h2> 
-                                <form action = "#">
-                                    <button class = "button_1"><span>Read more </span></button>
-                                </form> 
-                                </div>
-                            </div>
-                            <div class = "card">
-                                <img src = "Images/card_16.png" alt = "Card 2">
-                                <div class = "card_under">
-                                <h2>Obi Vincent</h2> 
-                                <form action = "#">
-                                    <button class = "button_1"><span>Read more </span></button>
-                                </form> 
-                                </div>
-                            </div>
-                            <div class = "card">
-                                <img src = "Images/card_20.png" alt = "Card 3">
-                                <div class = "card_under">
-                                <h2>Nick Bare</h2> 
-                                <form action = "#">
-                                    <button class = "button_1"><span>Read more </span></button>
-                                </form> 
-                                </div>
-                            </div>
-                            <div class = "card">
-                                <img src = "Images/card_17.png" alt = "Card 4">
-                                <div class = "card_under">
-                                <h2>Jeff Nippard</h2> 
-                                <form action = "#">
-                                    <button class = "button_1"><span>Read more </span></button>
-                                </form> 
-                                </div>
-                            </div>
-                            <div class = "card">
-                                <img src = "Images/card_18.png" alt = "Card 5">
-                                <div class = "card_under">
-                                <h2>Chris Heria</h2> 
-                                <form action = "#">
-                                    <button class = "button_1"><span>Read more </span></button>
-                                </form> 
-                                </div>
-                            </div>
-                            <div class = "card">
-                                <img src = "Images/card_19.png" alt = "Card 6">
-                                <div class = "card_under">
-                                <h2>Simeon Panda</h2> 
-                                <form action = "#">
-                                    <button class = "button_1"><span>Read more </span></button>
-                                </form> 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <hr>
-                <section class = "scroll-container">
-                    <div class = "scroll-element_8 js-scroll fade-in">
-                        <div><h2>Read, analyze, do, communicate with us and much more...</h2></div>
-                        <div>
-                            <form>
-                                <button formaction = "nutrition.html" class = "button_1">Nutrition</button>
-                                <button formaction = "news.html" class = "button_1">News</button>
-                                <button formaction = "programs.html" class = "button_1">Programs</button>
-                                <button formaction = "contact_us.html" class = "button_1">Contact us</button>
-                            </form>
-                        </div>
-                    </div>
-                </section>
-                <section class = "scroll-container">
-                    <div class = "scroll-element_9 js-scroll fade-in">
-                        <h1 id = "title">Our Office</h1>
-                        <div class = "slideshow-container">
-                            <div class = "Slides fade">
-                                <div class = "numbertext">1 / 7</div>
-                                <img class = "slide_img" src = "Images/background_12.jpg" style = "width:100%">
-                            </div>
-                            <div class = "Slides fade">
-                                <div class = "numbertext">2 / 7</div>
-                                <img class = "slide_img" src = "Images/background_13.jpg" style = "width:100%">
-                            </div>
-                            <div class = "Slides fade">
-                                <div class = "numbertext">3 / 7</div>
-                                <img class = "slide_img" src = "Images/background_14.jpg" style = "width:100%">
-                            </div>
-                            <div class = "Slides fade">
-                                <div class = "numbertext">4 / 7</div>
-                                <img class = "slide_img" src = "Images/background_15.jpg" style = "width:100%">
-                            </div>
-                            <div class = "Slides fade">
-                                <div class = "numbertext">5 / 7</div>
-                                <img class = "slide_img" src = "Images/background_16.jpg" style = "width:100%">
-                            </div>
-                            <div class = "Slides fade">
-                                <div class = "numbertext">6 / 7</div>
-                                <img class = "slide_img" src = "Images/background_17.jpg" style = "width:100%">
-                            </div>
-                            <div class = "Slides fade">
-                                <div class = "numbertext">7 / 7</div>
-                                <img class = "slide_img" src = "Images/background_18.jpg" style = "width:100%">
-                            </div>
-                            <div>
-                                <a class = "prev" onclick = "plusSlides(-1)">&#10094;</a>
-                                <a class = "next" onclick = "plusSlides(1)">&#10095;</a>
-                            </div>
-                            <br>
-                            <div style = "text-align:center">
-                                <span class = "dot" onclick = "currentSlide(1)"></span>
-                                <span class = "dot" onclick = "currentSlide(2)"></span>
-                                <span class = "dot" onclick = "currentSlide(3)"></span>
-                                <span class = "dot" onclick = "currentSlide(4)"></span>
-                                <span class = "dot" onclick = "currentSlide(5)"></span>
-                                <span class = "dot" onclick = "currentSlide(6)"></span>
-                                <span class = "dot" onclick = "currentSlide(7)"></span>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <hr>
-                <div class = "footer">
-                    <div class = "under_footer">
-                        <center>
-                            <table class = "footer_table">
-                                <tr>
-                                    <td><a href = "nutrition.html" class = "footer_link">Nutrition</a></td>
-                                    <td><a href = "programs.html" class = "footer_link">Programs</a></td>
-                                    <td><a href = "news.html" class = "footer_link">News</a></td>
-                                    <td><a href = "about.html" class = "footer_link">About us</a></td>
-                                    <td><a href = "contact_us.html" class = "footer_link">Contact us</a></td>
-                                </tr>
-                            </table>
-                        </center>
-                    </div>
-                    <div class = "social_footer">
-                        <a href = "#" class = "fa fa-instagram"></a>
-                        <a href = "#" class = "fa fa-telegram"></a>
-                        <a href = "#" class = "fa fa-youtube"></a>
-                        <a href = "#" class = "fa fa-facebook"></a>
-                        <a href = "#" class = "fa fa-twitter"></a>
-                    </div>
-                    <p>&copy; SpaceFit, 2024. All Rights Reserved.
-                        <br>All trademarks mentioned are the property of their respective owners.
-                        <br><img src = "https://img.icons8.com/ios/40/000000/barbell.png" alt = "Barbell Icon">
-                    </p>
+            </section>
+            <section class = "scroll-container">
+                <div class = "scroll-element_1 js-scroll fade-in">
+                    <center><h1 id = "title">Core Values</h1></center>
+                    <center>
+                        <table cellspacing = "0" cellpadding = "25" id = "table">
+                            <tr>
+                                <td><img src = "https://img.icons8.com/ios-glyphs/90/000000/thumb-up--v1.png" alt = "User"></td>
+                                <td valign = "center"><h2>Quality & Simplicity</h2>
+                                <h3>In sports, excellence is key. We focus on delivering top-notch quality and straightforward solutions, ensuring that every athlete and fan experiences the best with minimal fuss. Our commitment to simplicity helps everyone stay focused on what truly matters: the game.</h3>
+                            </tr>
+                            <tr>
+                                <td><img src = "https://img.icons8.com/ios-glyphs/90/000000/warranty.png" alt = "Task Completed"></td>
+                                <td valign = "center"><h2>Trust & Accountability</h2>
+                                <h3>Trust is essential in sports. We earn it by being reliable and transparent in every aspect of our work. Our accountability ensures that every interaction is honest and every promise is kept, building a strong foundation with athletes, teams, and fans alike.</h3>
+                            </tr>
+                            <tr>
+                                <td><img src = "https://img.icons8.com/ios-glyphs/90/000000/clock--v1.png" alt = "Hot Drink"></td>
+                                <td valign = "center"><h2>Reliability & Speed</h2>
+                                <h3>In the fast-paced world of sports, reliability and speed are crucial. We pride ourselves on delivering timely updates, accurate information, and responsive service to keep you in the game and ahead of the competition.</h3>
+                            </tr>
+                            <tr>
+                                <td><img src = "https://img.icons8.com/ios-glyphs/90/000000/fire-element--v1.png" alt = "Price Tag"></td>
+                                <td valign = "center"><h2>Creativity & Persistence</h2>
+                                <h3>Creativity and persistence are what drive us to push the boundaries of sports coverage. Whether it's through innovative content, unique features, or overcoming challenges, we're dedicated to bringing fresh and exciting experiences to sports enthusiasts everywhere.</h3>
+                            </tr>
+                        </table>
+                    </center>
                 </div>
+            </section>
+            <hr>
+            <section class = "scroll-container">
+                <div class = "scroll-element_2 js-scroll fade-in">
+                    <center><h1 id = "title">Top Professional Coaches:
+                    <br>Meet the SpaceFit Team</h1></center>
+                    <div class = "cards">
+                        <div class = "card">
+                            <img src = "Images/card_15.png" alt = "Card 1">
+                            <div class = "card_under">
+                            <h2>Mike Thurston</h2> 
+                            <form action = "#">
+                                <button class = "button_1"><span>Read more </span></button>
+                            </form> 
+                            </div>
+                        </div>
+                        <div class = "card">
+                            <img src = "Images/card_16.png" alt = "Card 2">
+                            <div class = "card_under">
+                            <h2>Obi Vincent</h2> 
+                            <form action = "#">
+                                <button class = "button_1"><span>Read more </span></button>
+                            </form> 
+                            </div>
+                        </div>
+                        <div class = "card">
+                            <img src = "Images/card_20.png" alt = "Card 3">
+                            <div class = "card_under">
+                            <h2>Nick Bare</h2> 
+                            <form action = "#">
+                                <button class = "button_1"><span>Read more </span></button>
+                            </form> 
+                            </div>
+                        </div>
+                        <div class = "card">
+                            <img src = "Images/card_17.png" alt = "Card 4">
+                            <div class = "card_under">
+                            <h2>Jeff Nippard</h2> 
+                            <form action = "#">
+                                <button class = "button_1"><span>Read more </span></button>
+                            </form> 
+                            </div>
+                        </div>
+                        <div class = "card">
+                            <img src = "Images/card_18.png" alt = "Card 5">
+                            <div class = "card_under">
+                            <h2>Chris Heria</h2> 
+                            <form action = "#">
+                                <button class = "button_1"><span>Read more </span></button>
+                            </form> 
+                            </div>
+                        </div>
+                        <div class = "card">
+                            <img src = "Images/card_19.png" alt = "Card 6">
+                            <div class = "card_under">
+                            <h2>Simeon Panda</h2> 
+                            <form action = "#">
+                                <button class = "button_1"><span>Read more </span></button>
+                            </form> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class = "scroll-container">
+                <div class = "scroll-element_3 js-scroll fade-in">
+                    <h1 id = "title">Our Office</h1>
+                    <div class = "slideshow-container">
+                        <div class = "Slides fade">
+                            <div class = "numbertext">1 / 7</div>
+                            <img class = "slide_img" src = "Images/background_12.jpg" style = "width:100%">
+                        </div>
+                        <div class = "Slides fade">
+                            <div class = "numbertext">2 / 7</div>
+                            <img class = "slide_img" src = "Images/background_13.jpg" style = "width:100%">
+                        </div>
+                        <div class = "Slides fade">
+                            <div class = "numbertext">3 / 7</div>
+                            <img class = "slide_img" src = "Images/background_14.jpg" style = "width:100%">
+                        </div>
+                        <div class = "Slides fade">
+                            <div class = "numbertext">4 / 7</div>
+                            <img class = "slide_img" src = "Images/background_15.jpg" style = "width:100%">
+                        </div>
+                        <div class = "Slides fade">
+                            <div class = "numbertext">5 / 7</div>
+                            <img class = "slide_img" src = "Images/background_16.jpg" style = "width:100%">
+                        </div>
+                        <div class = "Slides fade">
+                            <div class = "numbertext">6 / 7</div>
+                            <img class = "slide_img" src = "Images/background_17.jpg" style = "width:100%">
+                        </div>
+                        <div class = "Slides fade">
+                            <div class = "numbertext">7 / 7</div>
+                            <img class = "slide_img" src = "Images/background_18.jpg" style = "width:100%">
+                        </div>
+                        <div>
+                            <a class = "prev" onclick = "plusSlides(-1)">&#10094;</a>
+                            <a class = "next" onclick = "plusSlides(1)">&#10095;</a>
+                        </div>
+                        <br>
+                        <div style = "text-align:center">
+                            <span class = "dot" onclick = "currentSlide(1)"></span>
+                            <span class = "dot" onclick = "currentSlide(2)"></span>
+                            <span class = "dot" onclick = "currentSlide(3)"></span>
+                            <span class = "dot" onclick = "currentSlide(4)"></span>
+                            <span class = "dot" onclick = "currentSlide(5)"></span>
+                            <span class = "dot" onclick = "currentSlide(6)"></span>
+                            <span class = "dot" onclick = "currentSlide(7)"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <div class = "footer">
+                <div class = "under_footer">
+                    <center>
+                        <table class = "footer_table">
+                            <tr>
+                                <td><a href = "nutrition.html" class = "footer_link">Nutrition</a></td>
+                                <td><a href = "programs.html" class = "footer_link">Programs</a></td>
+                                <td><a href = "news.html" class = "footer_link">News</a></td>
+                                <td><a href = "about.html" class = "footer_link">About us</a></td>
+                                <td><a href = "contact_us.html" class = "footer_link">Contact us</a></td>
+                            </tr>
+                        </table>
+                    </center>
+                </div>
+                <div class = "social_footer">
+                    <a href = "#" class = "fa fa-instagram"></a>
+                    <a href = "#" class = "fa fa-telegram"></a>
+                    <a href = "#" class = "fa fa-youtube"></a>
+                    <a href = "#" class = "fa fa-facebook"></a>
+                    <a href = "#" class = "fa fa-twitter"></a>
+                </div>
+                <p>&copy; SpaceFit, 2024. All Rights Reserved.
+                    <br>All trademarks mentioned are the property of their respective owners.
+                    <br><img src = "https://img.icons8.com/ios/40/000000/barbell.png" alt = "Barbell Icon">
+                </p>
             </div>
-            <script src = "Scripts/loader.js"></script>
-            <script src = "Scripts/slideshow_gallery.js"></script>
-            <script src = "Scripts/scroll_animation.js"></script>
-        </body>
-
-    </head>
-
+        </div>
+        <script src = "Scripts/loader.js"></script>
+        <script src = "Scripts/slideshow_gallery.js"></script>
+        <script src = "Scripts/scroll_animation.js"></script>
+    </body>
 </html>
