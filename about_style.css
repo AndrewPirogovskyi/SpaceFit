@@ -173,13 +173,25 @@ body {
     width: 40%;
     font-size: 20px;
 }
+.text {
+    padding: 0 16%;
+}
 .scroll-element_3 {
     padding-top: 5px;
     padding-bottom: 5px;
     position: relative;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    width: 95%;
+    width: 100%;
+}
+.scroll-element_4 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 99%;
+    gap: 10px;
 }
 .scroll-caption {
     margin: 1rem;
@@ -208,8 +220,6 @@ body {
 .slideshow-container {
     width: 100%;
     position: relative;
-    margin-left: 45px;
-    margin-right: 45px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
